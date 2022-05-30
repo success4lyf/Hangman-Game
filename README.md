@@ -40,4 +40,30 @@ This Game starts with a default number of lives and a random word from the word_
    - ask_letter():
         Asks the user for a letter.
 
+## Milestone 1
+Declaring the class and defining the initializer, and creating the instance variables as shown below:
+```python
+class Hangman:
+
+    def __init__(self, word_list, num_lives=5):
+        self.word_list = word_list
+        self.word = random.choice(self.word_list)
+        self.num_letters = len(set(list(self.word)))
+        self.num_lives = num_lives
+        self.list_letters = []
+        self.word_guessed = []
+        for letter in range(len(self.word)):
+            self.word_guessed.append('_')
+        self.hangman_pics = [
+```
+## Milestone 2
+
+This is were the methods are defined. 
+
+- The ask_letter method is defined, asking the player to input a single letter. If the player enters more thane one letter, it will ask the player to enter a single letter, by printing - "Please, enter just one character" to the console. it also checks that the letter hasn't been tried already. If the letter has been tried already, it will ask the user to enter a new letter, and it prints "{letter} was already tried, try again" to the console. 
+- The ask_letter method calls the check_letter method to check if the letter is in the word. If it is, it replaces the '_' in the word_guessed list with the letter. If it is not, it reduces the number of lives by 1. 
+- while the play_game method Iteratively ask the user for a letter until the user guesses the word or runs out of lives.
+
+## Milestone 3
+Game output.
 
