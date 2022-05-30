@@ -67,3 +67,4 @@ This is were the methods are defined.
 ## Milestone 3
 Game output.
 
+<img width="717" alt="Screenshot 2022-05-30 at 23 49 53" src="https://user-images.githubusercontent.com/78314396/171066701-0e3464f3-0b94-4c01-90c8-26da81ba1f06.png">
