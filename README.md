@@ -4,7 +4,6 @@
 
 ## Flow Diagram
 
-<img width="568" alt="Screenshot 2022-06-01 at 12 52 25" src="https://user-images.githubusercontent.com/78314396/171399060-a92871d0-101e-4d46-80eb-e5efbe344254.png">
 
 ## Explanation
 
